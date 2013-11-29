@@ -1,0 +1,11 @@
+Dopišita še aktivnosti ki jih bomo meli..
+
+AKTIVNOSTI:
+ AKTIVNOST / TRANAJE V DNEVIH
+-Risanje likov in ikon / 7 dni
+-Naèrtovanje zgodbe /2dni
+-Zamisel igre /2dni
+-Programiranje igre /30dni
+-Izdelava "score" liste /7dni
+-Testiranje aplikacije /7dni
+-Izbolšave /3dni

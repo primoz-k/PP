@@ -2,10 +2,11 @@ Dopišita še aktivnosti ki jih bomo meli..
 
 AKTIVNOSTI:
  AKTIVNOST / TRANAJE V DNEVIH
--Risanje likov in ikon / 7 dni
--Naèrtovanje zgodbe /2dni
--Zamisel igre /2dni
+-Risanje likov in ikon / 10 dni
+-Naèrtovanje zgodbe /4 dni
 -Programiranje igre /30dni
--Izdelava "score" liste /7dni
+-Izdelava "score" liste /7dni //didaktièna igra ne vem, èe je fora v toèkah, ker baje otrokom ne pomenjo neki ful pike. Bolj 
+	je v tem fora, da se neki zgodi, èe zadaneš pravi rezultat (npr, te pohvali pa maèku nariše oko, potem, nos, pa te bedarije :D
+	Tako, da tle lahko samo spremeniš ime aktivnosti v Implementacija sistema nagrajevanja za pravilni odgovor (matr se strokovno sliš :D)
 -Testiranje aplikacije /7dni
 -Izbolšave /3dni

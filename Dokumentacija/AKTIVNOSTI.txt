@@ -5,8 +5,6 @@ AKTIVNOSTI:
 -Risanje likov in ikon / 10 dni
 -Naèrtovanje zgodbe /4 dni
 -Programiranje igre /30dni
--Izdelava "score" liste /7dni //didaktièna igra ne vem, èe je fora v toèkah, ker baje otrokom ne pomenjo neki ful pike. Bolj 
-	je v tem fora, da se neki zgodi, èe zadaneš pravi rezultat (npr, te pohvali pa maèku nariše oko, potem, nos, pa te bedarije :D
-	Tako, da tle lahko samo spremeniš ime aktivnosti v Implementacija sistema nagrajevanja za pravilni odgovor (matr se strokovno sliš :D)
+-Implementacija sistema nagrajevanja za pravilni odgovor /7dni 
 -Testiranje aplikacije /7dni
 -Izbolšave /3dni

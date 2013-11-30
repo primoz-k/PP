@@ -6,5 +6,5 @@ AKTIVNOSTI:
 -Naèrtovanje zgodbe /4 dni
 -Programiranje igre /30dni
 -Implementacija sistema nagrajevanja za pravilni odgovor /7dni 
--Testiranje aplikacije /7dni
+-Testiranje aplikacije /5dni
 -Izbolšave /3dni

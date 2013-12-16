@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="si.fri.pp.liki"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="si.fri.pp.liki.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="si.fri.pp.liki.PrepoznavanjeActivity"
+            android:label="@string/title_activity_prepoznavanje" >
+        </activity>
+        <activity
+            android:name="si.fri.pp.liki.SestavljanjeActivity"
+            android:label="@string/title_activity_sestavljanje" >
+        </activity>
+        <activity
+            android:name="si.fri.pp.liki.SteviloDiagonalActivity"
+            android:label="@string/title_activity_stevilo_diagonal" >
+        </activity>
+    </application>
+
+</manifest>

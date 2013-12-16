@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Liki</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="prepoznavanjeLikov">Prepoznavanje likov</string>
+    <string name="sestavljanjeLikov">Sestavljanje likov</string>
+    <string name="diagonale">Diagonale</string>
+    <string name="stStranic">Število stranic</string>
+    <string name="velKotov">Velikost kotov</string>
+    <string name="obseg">Obseg</string>
+    <string name="ploscina">Ploščina</string>
+    <string name="title_activity_prepoznavanje">PrepoznavanjeActivity</string>
+    <string name="title_activity_sestavljanje">SestavljanjeActivity</string>
+    <string name="title_activity_stevilo_diagonal">SteviloDiagonalActivity</string>
+
+</resources>

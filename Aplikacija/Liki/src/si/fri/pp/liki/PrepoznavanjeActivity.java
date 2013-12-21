@@ -1,6 +1,7 @@
 package si.fri.pp.liki;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -15,8 +16,13 @@ public class PrepoznavanjeActivity extends Activity {
 	}
 	
 	public void krogIgra(View view){
-		TextView tv = (TextView) findViewById(R.id.textView2);
-		tv.setText("Izbral si krog.");
+		Intent intent = new Intent(this, KrogActivity.class);
+    	startActivity(intent);
+	}
+	
+	public void kvadratIgra(View view){
+		Intent intent = new Intent(this, KvadratActivity.class);
+    	startActivity(intent);
 	}
 
 	@Override

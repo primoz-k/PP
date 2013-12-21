@@ -14,5 +14,7 @@
     <string name="title_activity_prepoznavanje">PrepoznavanjeActivity</string>
     <string name="title_activity_sestavljanje">SestavljanjeActivity</string>
     <string name="title_activity_stevilo_diagonal">SteviloDiagonalActivity</string>
+    <string name="title_activity_krog">KrogActivity</string>
+    <string name="title_activity_kvadrat">KvadratActivity</string>
 
 </resources>

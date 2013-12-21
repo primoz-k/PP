@@ -34,6 +34,14 @@
             android:name="si.fri.pp.liki.SteviloDiagonalActivity"
             android:label="@string/title_activity_stevilo_diagonal" >
         </activity>
+        <activity
+            android:name="si.fri.pp.liki.KrogActivity"
+            android:label="@string/title_activity_krog" >
+        </activity>
+        <activity
+            android:name="si.fri.pp.liki.KvadratActivity"
+            android:label="@string/title_activity_kvadrat" >
+        </activity>
     </application>
 
 </manifest>

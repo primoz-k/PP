@@ -31,7 +31,7 @@
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal" >
 
-            <LinearLayout
+           <LinearLayout
                 android:id="@+id/linearLayout1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -41,11 +41,6 @@
                 android:clickable="true"
                 android:onClick="krogIgra" >
 
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="" />
                 
             </LinearLayout>
   			
@@ -57,7 +52,8 @@
 			        android:layout_centerHorizontal="true"
 			        android:layout_marginTop="16dp"
 			        android:background="@drawable/square"
-			        android:orientation="vertical" >
+			        android:orientation="vertical"
+			        android:onClick="kvadratIgra" >
 		    </LinearLayout>
 		    
 			<LinearLayout

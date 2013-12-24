@@ -9,8 +9,179 @@
     tools:context=".SteviloDiagonalActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Koliko diagonal ima ta lik?"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/stirikotnik"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/krog"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/petkotnik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/petkotnik"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sestkotnik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/sestkotnik"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sedemkotnik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/sedemkotnik"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutResitev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView1"
+        android:layout_centerHorizontal="true"
+        android:onClick="zamenjaj"
+        android:text="Potrdi izbiro" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="n*(n-3) / 2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+                <RadioGroup
+			        android:id="@+id/radioGroup1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignLeft="@+id/textView1"
+			        android:layout_below="@+id/linearLayout1"
+			        android:layout_marginTop="35dp" >
+			            <RadioButton
+				            android:id="@+id/radio0"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="9" />
+			
+				        <RadioButton
+				            android:id="@+id/radio1"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="5" />
+			
+				        <RadioButton
+				            android:id="@+id/radio2"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="2" />
+				        
+				        <RadioButton
+				            android:id="@+id/radio3"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="0" />
+				
+				        <RadioButton
+				            android:id="@+id/radio4"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="14" />
+				
+				        <RadioButton
+				            android:id="@+id/radio5"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="25" />
+		    		</RadioGroup>
+	        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_resitev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="14dp"
+        android:text="n*(n-3) / 2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
 
 </RelativeLayout>

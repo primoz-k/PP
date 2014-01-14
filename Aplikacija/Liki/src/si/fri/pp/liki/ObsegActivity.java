@@ -36,6 +36,26 @@ public class ObsegActivity extends Activity {
 		}
 		
 	}
+	
+	public void preveri_resitve(View view){
+		EditText n1 = (EditText) findViewById(R.id.ET_steviloStranic1);
+		EditText n2 = (EditText) findViewById(R.id.ET_steviloStranic2);
+		EditText n3 = (EditText) findViewById(R.id.ET_steviloStranic3);
+		
+		if(n1.getText().length() > 0 && n2.getText().length() > 0 && n3.getText().length() > 0){
+			int int_n1 = Integer.parseInt(n1.getText().toString());
+			int int_n2 = Integer.parseInt(n2.getText().toString());
+			int int_n3 = Integer.parseInt(n3.getText().toString());
+			if(int_n1 == 4 && int_n2 == 7 && int_n3 == 5){
+				Toast.makeText(getApplicationContext(), "Bravo, pravilno si ugotovil vse like.",
+						Toast.LENGTH_SHORT).show();
+			}
+			else
+				Toast.makeText(getApplicationContext(), "Raje še enkrat preveri vsako rešitev.",
+						Toast.LENGTH_SHORT).show();
+		}
+	}
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

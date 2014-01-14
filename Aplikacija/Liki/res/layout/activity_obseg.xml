@@ -20,7 +20,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="300px"
+            android:layout_marginTop="250px"
             android:orientation="vertical" >
 
             <TextView
@@ -65,7 +65,6 @@
                     android:text="= "
                     android:textAppearance="?android:attr/textAppearanceMedium" />
             </LinearLayout>
-
         </LinearLayout>
 
         <Button
@@ -75,10 +74,100 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:onClick="izracunaj_obseg"
-            android:text="Potrdi izbiro" />
-        
-        
+            android:text="Izračunaj obseg" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70px"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Naloga: Ugotovi, koliko stranic ima lik, za katerega je izračunan obseg:" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px" >
+
+                <TextView
+                    android:id="@+id/TV_obseg1"
+                    android:layout_width="450px"
+                    android:layout_height="wrap_content"
+                    android:text="Obseg = 8, a = 2: "
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/ET_steviloStranic1"
+                    android:layout_width="92dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:hint="n"
+                    android:inputType="number" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px" >
+
+                <TextView
+                    android:id="@+id/TV_obseg2"
+                    android:layout_width="450px"
+                    android:layout_height="wrap_content"
+                    android:text="Obseg = 28, a = 4: "
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/ET_steviloStranic2"
+                    android:layout_width="92dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:hint="n"
+                    android:inputType="number" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px" >
+
+                <TextView
+                    android:id="@+id/TV_obseg3"
+                    android:layout_width="450px"
+                    android:layout_height="wrap_content"
+                    android:text="Obseg = 25, a = 5: "
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/ET_steviloStranic3"
+                    android:layout_width="92dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:hint="n"
+                    android:inputType="number" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+            <Button
+            android:id="@+id/B_nalogaObseg"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="preveri_resitve"
+            android:text="Preveri rešitve" />
+        </LinearLayout>
     </LinearLayout>
 
 </RelativeLayout>

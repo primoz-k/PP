@@ -11,10 +11,12 @@
     <string name="velKotov">Velikost kotov</string>
     <string name="obseg">Obseg</string>
     <string name="ploscina">Ploščina</string>
-    <string name="title_activity_prepoznavanje">PrepoznavanjeActivity</string>
-    <string name="title_activity_sestavljanje">SestavljanjeActivity</string>
-    <string name="title_activity_stevilo_diagonal">SteviloDiagonalActivity</string>
-    <string name="title_activity_krog">KrogActivity</string>
-    <string name="title_activity_kvadrat">KvadratActivity</string>
+    <string name="title_activity_prepoznavanje">Prepoznavanje likov</string>
+    <string name="title_activity_sestavljanje">Sestavljanje likov</string>
+    <string name="title_activity_stevilo_diagonal">Diagonale likov</string>
+    <string name="title_activity_krog">Krog</string>
+    <string name="title_activity_kvadrat">Kvadrat</string>
+    <string name="razlaga_kroga">Krog je lik brez kotov.</string>
+    <string name="title_activity_obseg">Obseg pravilnih večkotnikov</string>
 
 </resources>

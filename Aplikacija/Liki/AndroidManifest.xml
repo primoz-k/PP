@@ -42,6 +42,10 @@
             android:name="si.fri.pp.liki.KvadratActivity"
             android:label="@string/title_activity_kvadrat" >
         </activity>
+        <activity
+            android:name="si.fri.pp.liki.ObsegActivity"
+            android:label="@string/title_activity_obseg" >
+        </activity>
     </application>
 
 </manifest>

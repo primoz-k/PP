@@ -1,8 +1,10 @@
 package si.fri.pp.liki;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -53,7 +55,7 @@ public class KrogActivity extends Activity {
 	    	TextView tv = (TextView) findViewById(R.id.tv_krog);
 			tv.setText("");
 	    	TextView tv1 = (TextView) findViewById(R.id.steviloZadetih);
-			tv1.setText("Bravo, majster, prepoznal si vse kroge.");
+			tv1.setText("Bravo, prepoznal si vse kroge.");
 	    }
 	}
 	 
@@ -65,4 +67,17 @@ public class KrogActivity extends Activity {
 		return true;
 	}
 
+	
+	@Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+    	switch (item.getItemId()) {
+    	case R.id.navodila_krog:
+    		AlertDialog instr = new AlertDialog.Builder(this).create();
+    		instr.setMessage("Krog je lik brez kotov, v obliki pizze. \n"
+    				+ "Sedaj ti ga ne bo težko prepoznati.");
+    		instr.show();
+    		return true;
+    	}
+    	return super.onOptionsItemSelected(item);
+    }
 }

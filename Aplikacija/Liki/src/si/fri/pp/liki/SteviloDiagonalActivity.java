@@ -78,7 +78,7 @@ public class SteviloDiagonalActivity extends Activity {
 				resitev.setText("6*(6-3) / 2 = 9");
 				st++;
 				if (st == 10) {
-					Toast.makeText(getApplicationContext(), "Konec!",
+					Toast.makeText(getApplicationContext(), "Odlièno! Dokazal/a si, da ti diagonale ne predstavljajo težav",
 							Toast.LENGTH_SHORT).show();
 				}
 				layoutResitev.setBackground(getResources().getDrawable(
@@ -93,7 +93,7 @@ public class SteviloDiagonalActivity extends Activity {
 						R.drawable.petkotnik_resen));
 				st++;
 				if (st == 10) {
-					Toast.makeText(getApplicationContext(), "Konec!",
+					Toast.makeText(getApplicationContext(), "Odlièno! Dokazal/a si, da ti diagonale ne predstavljajo težav!",
 							Toast.LENGTH_SHORT).show();
 				}
 			} else
@@ -106,7 +106,7 @@ public class SteviloDiagonalActivity extends Activity {
 						R.drawable.stirikotnik_resen));
 				st++;
 				if (st == 10) {
-					Toast.makeText(getApplicationContext(), "Konec!",
+					Toast.makeText(getApplicationContext(), "Odlièno! Dokazal/a si, da ti diagonale ne predstavljajo težav!",
 							Toast.LENGTH_SHORT).show();
 				}
 			} else
@@ -119,7 +119,7 @@ public class SteviloDiagonalActivity extends Activity {
 						R.drawable.circle));
 				st++;
 				if (st == 10) {
-					Toast.makeText(getApplicationContext(), "Konec!",
+					Toast.makeText(getApplicationContext(), "Odlièno! Dokazal/a si, da ti diagonale ne predstavljajo težav!",
 							Toast.LENGTH_SHORT).show();
 				}
 			} else
@@ -132,7 +132,8 @@ public class SteviloDiagonalActivity extends Activity {
 						R.drawable.sedemkotnik_resen));
 				st++;
 				if (st == 10) {
-					Toast.makeText(getApplicationContext(), "Konec!",
+					Toast.makeText(getApplicationContext(), "Odlièno! Dokazal/a si, da ti "
+							+ "diagonale ne predstavljajo težav!",
 							Toast.LENGTH_SHORT).show();
 				}
 			} else

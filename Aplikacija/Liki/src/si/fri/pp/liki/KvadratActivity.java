@@ -2,7 +2,9 @@ package si.fri.pp.liki;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -48,7 +50,7 @@ public class KvadratActivity extends Activity {
 	    	TextView tv = (TextView) findViewById(R.id.tv_kvadrat);
 			tv.setText("");
 	    	TextView tv1 = (TextView) findViewById(R.id.steviloZadetihKvadratov);
-			tv1.setText("Bravo, majster, prepoznal si vse kvadrate.");
+			tv1.setText("Bravo, prepoznal si vse kvadrate.");
 	    }
 	}
 	@Override
@@ -58,4 +60,17 @@ public class KvadratActivity extends Activity {
 		return true;
 	}
 
+	@Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+    	switch (item.getItemId()) {
+    	case R.id.navodila_kvadrat:
+    		AlertDialog instr = new AlertDialog.Builder(this).create();
+    		instr.setMessage("Krog je lik s štirimi koti - vsi merijo 90°,"
+    				+ "torej spada v družino pravokotnikov. \n"
+    				+ "Njegove štiri stranice so vse enake dolžine.");
+    		instr.show();
+    		return true;
+    	}
+    	return super.onOptionsItemSelected(item);
+    }
 }
